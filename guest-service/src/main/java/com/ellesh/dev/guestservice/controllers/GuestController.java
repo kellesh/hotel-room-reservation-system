@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/guests")
+@RequestMapping("/api/v1/guests")
 public class GuestController {
 
     private final GuestService guestService;
