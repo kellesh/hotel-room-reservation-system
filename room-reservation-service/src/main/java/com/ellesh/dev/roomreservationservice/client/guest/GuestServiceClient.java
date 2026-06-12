@@ -15,10 +15,10 @@ import java.util.List;
 public class GuestServiceClient {
     private final RestTemplate restTemplate;
 
-    @Value("${GUEST_SERVICE_URL}")
-    private String guestServiceUrl;
+    //@Value("${GUEST_SERVICE_URL}")
+    private String guestServiceUrl = "http://guest-service";
 
-    private final static String GUESTS_URL_PART = "/api/guests";
+    private final static String GUESTS_URL_PART = "/api/v1/guests";
     private final static String SLASH = "/";
 
     public GuestServiceClient(RestTemplate restTemplate) {
