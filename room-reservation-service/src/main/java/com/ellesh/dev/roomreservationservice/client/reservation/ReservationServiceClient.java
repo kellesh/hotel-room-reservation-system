@@ -14,10 +14,10 @@ import java.util.List;
 public class ReservationServiceClient {
     private final RestTemplate restTemplate;
 
-    @Value("${RESERVATION_SERVICE_URL}")
-    private String reservationServiceUrl;
+   // @Value("${RESERVATION_SERVICE_URL}")
+    private String reservationServiceUrl="http://reservation-service";
 
-    private final static String RESERVATIONS_URL_PART = "/reservations";
+    private final static String RESERVATIONS_URL_PART = "api/v1/reservations";
     private final static String SLASH = "/";
 
     public ReservationServiceClient(RestTemplate restTemplate) {
