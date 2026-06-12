@@ -8,7 +8,7 @@
         <version>2.7.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.frankmoley.lil</groupId>
+    <groupId>dev.ellesh.dev</groupId>
     <artifactId>room-reservation-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>room-reservation-service</name>
